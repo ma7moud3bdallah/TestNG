@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="Search For A Customer">
+        <classes>
+            <class name="testNG.annotaionsExecutionOrder.Configuration_Annotations">
+                <methods>
+                    <include name = "searchCustomer"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Configuration Annotation Test -->
+
+    <test name="Search For A Product">
+        <classes>
+            <class name="testNG.annotaionsExecutionOrder.Configuration_Annotations">
+                <methods>
+                    <include name = "searchProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Configuration Annotation Test -->
+</suite>
