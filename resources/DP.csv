@@ -1,0 +1,4 @@
+email,password,expectedResult
+TestNG@Framework.com,TestNG1234,true
+Mahmoud@Abdallah.com,DoeDoe34,false
+Test@Test.com,Test1234,false
